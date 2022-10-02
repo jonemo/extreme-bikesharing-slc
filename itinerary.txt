@@ -1,0 +1,167 @@
+#01 dist: 2.13mi dur: 15m55s 14:30:00
+Salt Lake County Station @ 2001S State Street
+  --> 900S 490E Station
+
+#02 dist: 0.66mi dur: 5m56s 14:45:55
+900S 490E Station
+  --> 9th & 9th Station
+
+#03 dist: 0.91mi dur: 7m39s 14:51:52
+9th & 9th Station
+  --> Salt Lake Mag Station @ 510S 700E (Trolley Square)
+
+#04 dist: 0.66mi dur: 7m02s 14:59:31
+Salt Lake Mag Station @ 510S 700E (Trolley Square)
+  --> 300S 710E Station
+
+#05 dist: 0.36mi dur: 3m37s 15:06:34
+300S 710E Station
+  --> JF Capital Station @ 300S 500E
+
+#06 dist: 0.34mi dur: 3m22s 15:10:11
+JF Capital Station @ 300S 500E
+  -->  100S 500E Station
+
+#07 dist: 0.32mi dur: 3m03s 15:13:34
+ 100S 500E Station
+  --> CityScape Station @ 190S 400E
+
+#08 dist: 0.34mi dur: 3m32s 15:16:37
+CityScape Station @ 190S 400E
+  --> SLUG Mag Station @ 200S 200E
+
+#09 dist: 0.31mi dur: 3m26s 15:20:10
+SLUG Mag Station @ 200S 200E
+  --> 3 & 3 Uncommons Station 
+
+#10 dist: 0.38mi dur: 4m11s 15:23:37
+3 & 3 Uncommons Station 
+  --> The Shop @ 450S 300E Station
+
+#11 dist: 0.29mi dur: 3m25s 15:27:48
+The Shop @ 450S 300E Station
+  --> 349S 200E Station
+
+#12 dist: 0.17mi dur: 3m01s 15:31:14
+349S 200E Station
+  --> UCAIR Station @ 450S 200E
+
+#13 dist: 0.25mi dur: 3m36s 15:34:15
+UCAIR Station @ 450S 200E
+  --> 300S 200E Station
+
+#14 dist: 0.39mi dur: 3m25s 15:37:52
+300S 200E Station
+  --> Twilight Concert Series Station @ 50W Broadway 
+
+#15 dist: 0.43mi dur: 3m46s 15:41:17
+Twilight Concert Series Station @ 50W Broadway 
+  --> Milagro and AC Hotel Station @ 200S 250W
+
+#16 dist: 0.50mi dur: 5m13s 15:45:03
+Milagro and AC Hotel Station @ 200S 250W
+  --> The Gateway Station @ 100S Rio Grande 
+
+#17 dist: 0.53mi dur: 4m18s 15:50:16
+The Gateway Station @ 100S Rio Grande 
+  --> 640W  North Temple Station
+
+#18 dist: 0.47mi dur: 5m06s 15:54:35
+640W  North Temple Station
+  --> 400W South Temple Station
+
+#19 dist: 0.28mi dur: 3m40s 15:59:41
+400W South Temple Station
+  --> UTA FrontRunner Station @ 500W North Temple
+
+#20 dist: 0.26mi dur: 2m48s 16:03:22
+UTA FrontRunner Station @ 500W North Temple
+  --> 50S 500W Station
+
+#21 dist: 0.29mi dur: 3m14s 16:06:10
+50S 500W Station
+  --> Artspace Bridge Station @ 200S 500W
+
+#22 dist: 0.36mi dur: 3m23s 16:09:25
+Artspace Bridge Station @ 200S 500W
+  --> UTA FrontLines Station @ 200S 669W
+
+#23 dist: 0.36mi dur: 3m30s 16:12:48
+UTA FrontLines Station @ 200S 669W
+  --> UTA Salt Lake Central Station @ 290S 600W
+
+#24 dist: 0.64mi dur: 5m11s 16:16:18
+UTA Salt Lake Central Station @ 290S 600W
+  --> EcoBox Station @ 580S 500W 
+
+#25 dist: 0.55mi dur: 4m53s 16:21:30
+EcoBox Station @ 580S 500W 
+  --> Artspace Commons Station @ 800S 400W
+
+#26 dist: 0.83mi dur: 6m51s 16:26:23
+Artspace Commons Station @ 800S 400W
+  --> Sheraton Station @ 500S 150W
+
+#27 dist: 0.43mi dur: 4m39s 16:33:15
+Sheraton Station @ 500S 150W
+  --> Squatters Station @ 147W Broadway
+
+#28 dist: 0.28mi dur: 3m15s 16:37:54
+Squatters Station @ 147W Broadway
+  --> UCAIR Station @ Pioneer Park
+
+#29 dist: 0.29mi dur: 2m50s 16:41:10
+UCAIR Station @ Pioneer Park
+  --> 250S 200W Station
+
+#30 dist: 0.40mi dur: 3m42s 16:44:01
+250S 200W Station
+  --> Radisson Station @ 215W South Temple
+
+#31 dist: 0.21mi dur: 2m17s 16:47:43
+Radisson Station @ 215W South Temple
+  --> The Church of Jesus Christ of Latter-Day Saints Station @ 200W North Temple
+
+#32 dist: 0.33mi dur: 4m25s 16:50:00
+The Church of Jesus Christ of Latter-Day Saints Station @ 200W North Temple
+  --> The Church of Jesus Christ of Latter-Day Saints Station @ 111N Main Street
+
+#33 dist: 0.20mi dur: 4m58s 16:54:25
+The Church of Jesus Christ of Latter-Day Saints Station @ 111N Main Street
+  --> Key Bank Station @ 6S Main Street
+
+#34 dist: 0.27mi dur: 4m12s 16:59:23
+Key Bank Station @ 6S Main Street
+  --> 20S West Temple Station
+
+#35 dist: 0.26mi dur: 4m05s 17:03:36
+20S West Temple Station
+  --> Dominion Energy Station @ 100S Main Street 
+
+#36 dist: 0.19mi dur: 2m46s 17:07:42
+Dominion Energy Station @ 100S Main Street 
+  --> Harmons Station @ 123E 100S
+
+#37 dist: 0.30mi dur: 3m41s 17:10:29
+Harmons Station @ 123E 100S
+  --> Energy Development Station @ 136S Main Street
+
+#38 dist: 0.15mi dur: 2m38s 17:14:10
+Energy Development Station @ 136S Main Street
+  --> Rocky Mountain Power Station @ 225S Main Street
+
+#39 dist: 0.23mi dur: 3m38s 17:16:49
+Rocky Mountain Power Station @ 225S Main Street
+  --> City Weekly Station @ 353S Main Street
+
+#40 dist: 0.80mi dur: 7m11s 17:20:27
+City Weekly Station @ 353S Main Street
+  --> Proper Brewing Co Station @ 867S Main Street
+
+#41 dist: 2.09mi dur: 15m22s 17:27:38
+Proper Brewing Co Station @ 867S Main Street
+  --> UTA Central Pointe Station @ 2100S 225W
+
+#42 dist: 0.67mi dur: 8m36s 17:43:01
+UTA Central Pointe Station @ 2100S 225W
+  --> Salt Lake County Station @ 2001S State Street
