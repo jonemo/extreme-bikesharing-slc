@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_7ae1079bc68dc72065b960681654ffc5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_7ae1079bc68dc72065b960681654ffc5" ></div>
+        
+</body>
+<script>    
+    
+            var map_7ae1079bc68dc72065b960681654ffc5 = L.map(
+                "map_7ae1079bc68dc72065b960681654ffc5",
+                {
+                    center: [40.748580000000004, -111.88848],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_78fb20d5cbc7128d557e2146ae2b8b10 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var circle_1970454b56716bcb7410b114784a44ca = L.circle(
+                [40.76704, -111.88774],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_bf28e18104ac064c6589316424c996ab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ed2c1d68871bbd193e4019a6ba92d330 = $(`<div id="html_ed2c1d68871bbd193e4019a6ba92d330" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2248</strong> Harmons Station @ 123E 100S</div>`)[0];
+            popup_bf28e18104ac064c6589316424c996ab.setContent(html_ed2c1d68871bbd193e4019a6ba92d330);
+        
+
+        circle_1970454b56716bcb7410b114784a44ca.bindPopup(popup_bf28e18104ac064c6589316424c996ab)
+        ;
+
+        
+    
+    
+            var circle_62f1561619afc37a0acc5c36d00548ee = L.circle(
+                [40.76903, -111.89126],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_a72226c9b5c940b20ae4a1ebd85debab = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b39f50ce164b48deb017fd7032ca7c7f = $(`<div id="html_b39f50ce164b48deb017fd7032ca7c7f" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2251</strong> Key Bank Station @ 6S Main Street</div>`)[0];
+            popup_a72226c9b5c940b20ae4a1ebd85debab.setContent(html_b39f50ce164b48deb017fd7032ca7c7f);
+        
+
+        circle_62f1561619afc37a0acc5c36d00548ee.bindPopup(popup_a72226c9b5c940b20ae4a1ebd85debab)
+        ;
+
+        
+    
+    
+            var circle_fac0e3055c3ea455eedad3f97f06af73 = L.circle(
+                [40.76266, -111.89544],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_240148feac56a731c68830405f5743cd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_14d1c24f7d50fd0d93a9aa4bcdbf2483 = $(`<div id="html_14d1c24f7d50fd0d93a9aa4bcdbf2483" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2252</strong> Squatters Station @ 147W Broadway</div>`)[0];
+            popup_240148feac56a731c68830405f5743cd.setContent(html_14d1c24f7d50fd0d93a9aa4bcdbf2483);
+        
+
+        circle_fac0e3055c3ea455eedad3f97f06af73.bindPopup(popup_240148feac56a731c68830405f5743cd)
+        ;
+
+        
+    
+    
+            var circle_ec90df12e385015fd4b53122b9fee1fc = L.circle(
+                [40.76812, -111.89419],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_5913ca9d3e85d512f844e0c3aa5dd45c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00f7bf26970ecdb4b2b2b83769243bfb = $(`<div id="html_00f7bf26970ecdb4b2b2b83769243bfb" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2254</strong> 20S West Temple Station</div>`)[0];
+            popup_5913ca9d3e85d512f844e0c3aa5dd45c.setContent(html_00f7bf26970ecdb4b2b2b83769243bfb);
+        
+
+        circle_ec90df12e385015fd4b53122b9fee1fc.bindPopup(popup_5913ca9d3e85d512f844e0c3aa5dd45c)
+        ;
+
+        
+    
+    
+            var circle_40e22ee77a286f75b525f262514541ae = L.circle(
+                [40.76142, -111.89091],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_f21e58dadd2f79c65b4834b486aec7b6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d6a69192880d8c5348c352957002fd27 = $(`<div id="html_d6a69192880d8c5348c352957002fd27" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2255</strong> City Weekly Station @ 353S Main Street</div>`)[0];
+            popup_f21e58dadd2f79c65b4834b486aec7b6.setContent(html_d6a69192880d8c5348c352957002fd27);
+        
+
+        circle_40e22ee77a286f75b525f262514541ae.bindPopup(popup_f21e58dadd2f79c65b4834b486aec7b6)
+        ;
+
+        
+    
+    
+            var circle_4f3f1abab60daae93d6b5229b6a51ea9 = L.circle(
+                [40.76975, -111.90274],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_2d9770f8fb11d2cd740b06753c4bc882 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f4b1dd774dc181df0d16f8e6031fa78c = $(`<div id="html_f4b1dd774dc181df0d16f8e6031fa78c" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2256</strong> 400W South Temple Station</div>`)[0];
+            popup_2d9770f8fb11d2cd740b06753c4bc882.setContent(html_f4b1dd774dc181df0d16f8e6031fa78c);
+        
+
+        circle_4f3f1abab60daae93d6b5229b6a51ea9.bindPopup(popup_2d9770f8fb11d2cd740b06753c4bc882)
+        ;
+
+        
+    
+    
+            var circle_f8044fec4ff38b2dffcca643f6b9a6a1 = L.circle(
+                [40.7643, -111.89095],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_777e360b8365a1e583a80c173f511e3e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f9ff360e20da48c01477658a88da3e13 = $(`<div id="html_f9ff360e20da48c01477658a88da3e13" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2257</strong> Rocky Mountain Power Station @ 225S Main Street</div>`)[0];
+            popup_777e360b8365a1e583a80c173f511e3e.setContent(html_f9ff360e20da48c01477658a88da3e13);
+        
+
+        circle_f8044fec4ff38b2dffcca643f6b9a6a1.bindPopup(popup_777e360b8365a1e583a80c173f511e3e)
+        ;
+
+        
+    
+    
+            var circle_490d06ae6edb4cf91637f33b8137696a = L.circle(
+                [40.77181, -111.89667],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_00115d1f45fd1103881628fe6d426cea = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8e12d8288c35357f47a9fa49b570102c = $(`<div id="html_8e12d8288c35357f47a9fa49b570102c" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2258</strong> The Church of Jesus Christ of Latter-Day Saints Station @ 200W North Temple</div>`)[0];
+            popup_00115d1f45fd1103881628fe6d426cea.setContent(html_8e12d8288c35357f47a9fa49b570102c);
+        
+
+        circle_490d06ae6edb4cf91637f33b8137696a.bindPopup(popup_00115d1f45fd1103881628fe6d426cea)
+        ;
+
+        
+    
+    
+            var circle_a563291049af071ad9f9d1704ccded57 = L.circle(
+                [40.76257, -111.9085],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_7522f51484124ff2de24607d0c4add4a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aeed8c9fae18a6c3517d08dea31b971c = $(`<div id="html_aeed8c9fae18a6c3517d08dea31b971c" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2259</strong> UTA Salt Lake Central Station @ 290S 600W</div>`)[0];
+            popup_7522f51484124ff2de24607d0c4add4a.setContent(html_aeed8c9fae18a6c3517d08dea31b971c);
+        
+
+        circle_a563291049af071ad9f9d1704ccded57.bindPopup(popup_7522f51484124ff2de24607d0c4add4a)
+        ;
+
+        
+    
+    
+            var circle_257e56472f5aea3e61cd54a4440cf67c = L.circle(
+                [40.76906, -111.89707],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_d48a239a380cb0469f58961524d751f0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a9e46423eadea8bfda66c6794e467c9 = $(`<div id="html_9a9e46423eadea8bfda66c6794e467c9" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2400</strong> Radisson Station @ 215W South Temple</div>`)[0];
+            popup_d48a239a380cb0469f58961524d751f0.setContent(html_9a9e46423eadea8bfda66c6794e467c9);
+        
+
+        circle_257e56472f5aea3e61cd54a4440cf67c.bindPopup(popup_d48a239a380cb0469f58961524d751f0)
+        ;
+
+        
+    
+    
+            var circle_b3faff122dbc3a303c106d72d5279db9 = L.circle(
+                [40.75943, -111.88521],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_714c68c9a13739d13ae382e3c5aff7a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3329047873fb38f61a2cd71229977f23 = $(`<div id="html_3329047873fb38f61a2cd71229977f23" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2735</strong> UCAIR Station @ 450S 200E</div>`)[0];
+            popup_714c68c9a13739d13ae382e3c5aff7a0.setContent(html_3329047873fb38f61a2cd71229977f23);
+        
+
+        circle_b3faff122dbc3a303c106d72d5279db9.bindPopup(popup_714c68c9a13739d13ae382e3c5aff7a0)
+        ;
+
+        
+    
+    
+            var circle_7dce48d2a6c195a39f9b12fd0e42c031 = L.circle(
+                [40.77132, -111.90874],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_c8db03c8ea43bbaaf356a6d57b8a2e52 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4a1b4f60924d7284d4aac1228626d296 = $(`<div id="html_4a1b4f60924d7284d4aac1228626d296" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2736</strong> 640W  North Temple Station</div>`)[0];
+            popup_c8db03c8ea43bbaaf356a6d57b8a2e52.setContent(html_4a1b4f60924d7284d4aac1228626d296);
+        
+
+        circle_7dce48d2a6c195a39f9b12fd0e42c031.bindPopup(popup_c8db03c8ea43bbaaf356a6d57b8a2e52)
+        ;
+
+        
+    
+    
+            var circle_1a73707db19751933392f6272305fa64 = L.circle(
+                [40.76624, -111.89124],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_23e0d996408667a1f2d8d7db199acc0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_32f8c7551236d4694b518eb36a888aae = $(`<div id="html_32f8c7551236d4694b518eb36a888aae" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2737</strong> Energy Development Station @ 136S Main Street</div>`)[0];
+            popup_23e0d996408667a1f2d8d7db199acc0f.setContent(html_32f8c7551236d4694b518eb36a888aae);
+        
+
+        circle_1a73707db19751933392f6272305fa64.bindPopup(popup_23e0d996408667a1f2d8d7db199acc0f)
+        ;
+
+        
+    
+    
+            var circle_da2f7d740bf08ac64a25701ab8378902 = L.circle(
+                [40.75861, -111.89593],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_b3a62a2ea4140dc6eb9dc51696a6ecd6 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_29ae801ca7b2815e71c585ea3e5e1895 = $(`<div id="html_29ae801ca7b2815e71c585ea3e5e1895" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2738</strong> Sheraton Station @ 500S 150W</div>`)[0];
+            popup_b3a62a2ea4140dc6eb9dc51696a6ecd6.setContent(html_29ae801ca7b2815e71c585ea3e5e1895);
+        
+
+        circle_da2f7d740bf08ac64a25701ab8378902.bindPopup(popup_b3a62a2ea4140dc6eb9dc51696a6ecd6)
+        ;
+
+        
+    
+    
+            var circle_be163e78d317f759365a7669c2d347c9 = L.circle(
+                [40.76539, -111.87982],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_e79f38be78a65a5a9e3714598458d750 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_67fd282560ff2c82010a1d4dbe775b74 = $(`<div id="html_67fd282560ff2c82010a1d4dbe775b74" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2739</strong> CityScape Station @ 190S 400E</div>`)[0];
+            popup_e79f38be78a65a5a9e3714598458d750.setContent(html_67fd282560ff2c82010a1d4dbe775b74);
+        
+
+        circle_be163e78d317f759365a7669c2d347c9.bindPopup(popup_e79f38be78a65a5a9e3714598458d750)
+        ;
+
+        
+    
+    
+            var circle_63fb270c0c27b4f4e13f701c4e9db461 = L.circle(
+                [40.76297, -111.88286],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_f1ce0fdbc0f3e5a8e48f480eac32838e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b6b68fcc47b75b6ac6ba16cf0720fe25 = $(`<div id="html_b6b68fcc47b75b6ac6ba16cf0720fe25" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2740</strong> 3 & 3 Uncommons Station </div>`)[0];
+            popup_f1ce0fdbc0f3e5a8e48f480eac32838e.setContent(html_b6b68fcc47b75b6ac6ba16cf0720fe25);
+        
+
+        circle_63fb270c0c27b4f4e13f701c4e9db461.bindPopup(popup_f1ce0fdbc0f3e5a8e48f480eac32838e)
+        ;
+
+        
+    
+    
+            var circle_0db0e89b85dff8be37e6123a727ab8eb = L.circle(
+                [40.76283, -111.89248],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_0492bf961ddb2ac0dbe81d8bc0655503 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_689132cd0d2d4b1ff526a74d4bdf1b49 = $(`<div id="html_689132cd0d2d4b1ff526a74d4bdf1b49" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_2742</strong> Twilight Concert Series Station @ 50W Broadway </div>`)[0];
+            popup_0492bf961ddb2ac0dbe81d8bc0655503.setContent(html_689132cd0d2d4b1ff526a74d4bdf1b49);
+        
+
+        circle_0db0e89b85dff8be37e6123a727ab8eb.bindPopup(popup_0492bf961ddb2ac0dbe81d8bc0655503)
+        ;
+
+        
+    
+    
+            var circle_c1478cc4415d4348129e9be57d678766 = L.circle(
+                [40.76285, -111.90006],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_1bae9a8f9f304fe25000cbd208c24590 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_074e896109af8ccfa3f71b0e99d9cfb6 = $(`<div id="html_074e896109af8ccfa3f71b0e99d9cfb6" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_3181</strong> UCAIR Station @ Pioneer Park</div>`)[0];
+            popup_1bae9a8f9f304fe25000cbd208c24590.setContent(html_074e896109af8ccfa3f71b0e99d9cfb6);
+        
+
+        circle_c1478cc4415d4348129e9be57d678766.bindPopup(popup_1bae9a8f9f304fe25000cbd208c24590)
+        ;
+
+        
+    
+    
+            var circle_9eb0946469c940b420300f64d648898d = L.circle(
+                [40.76524, -111.88515],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_95b508bbac603f9aa003ee368ccb599e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_59c0aeb2548b310459d221570f50bd4d = $(`<div id="html_59c0aeb2548b310459d221570f50bd4d" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_3182</strong> SLUG Mag Station @ 200S 200E</div>`)[0];
+            popup_95b508bbac603f9aa003ee368ccb599e.setContent(html_59c0aeb2548b310459d221570f50bd4d);
+        
+
+        circle_9eb0946469c940b420300f64d648898d.bindPopup(popup_95b508bbac603f9aa003ee368ccb599e)
+        ;
+
+        
+    
+    
+            var circle_d059e9dd16347283a47e680d38698351 = L.circle(
+                [40.76713, -111.90424],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_2a57c9f8f3a23ecb4b68054b14b05a3b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_aeaaca751585603f9ea37f5bd91396b8 = $(`<div id="html_aeaaca751585603f9ea37f5bd91396b8" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_3183</strong> The Gateway Station @ 100S Rio Grande </div>`)[0];
+            popup_2a57c9f8f3a23ecb4b68054b14b05a3b.setContent(html_aeaaca751585603f9ea37f5bd91396b8);
+        
+
+        circle_d059e9dd16347283a47e680d38698351.bindPopup(popup_2a57c9f8f3a23ecb4b68054b14b05a3b)
+        ;
+
+        
+    
+    
+            var circle_d007613cbca032a82862aac29fe3e61b = L.circle(
+                [40.76746, -111.87664],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_549fd1e45296906ee656f40ab537d668 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2e8849cf224ea3992453691599b8a3bb = $(`<div id="html_2e8849cf224ea3992453691599b8a3bb" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_3184</strong>  100S 500E Station</div>`)[0];
+            popup_549fd1e45296906ee656f40ab537d668.setContent(html_2e8849cf224ea3992453691599b8a3bb);
+        
+
+        circle_d007613cbca032a82862aac29fe3e61b.bindPopup(popup_549fd1e45296906ee656f40ab537d668)
+        ;
+
+        
+    
+    
+            var circle_8c75b43f3440f8431fd57beba30b5f33 = L.circle(
+                [40.76307, -111.87697],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_88c5126f21f9877c7fcc158ac67f07c9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b57ecb3b0e483079938d8439748b82b2 = $(`<div id="html_b57ecb3b0e483079938d8439748b82b2" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_3185</strong> JF Capital Station @ 300S 500E</div>`)[0];
+            popup_88c5126f21f9877c7fcc158ac67f07c9.setContent(html_b57ecb3b0e483079938d8439748b82b2);
+        
+
+        circle_8c75b43f3440f8431fd57beba30b5f33.bindPopup(popup_88c5126f21f9877c7fcc158ac67f07c9)
+        ;
+
+        
+    
+    
+            var circle_b95569ea24e0c4dedd4c8505673bcfc4 = L.circle(
+                [40.76732, -111.89085],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_290fd136626cdfa16e3663cf99d535cf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a3c75bc5ddb7789d797d768f224bbd36 = $(`<div id="html_a3c75bc5ddb7789d797d768f224bbd36" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_3423</strong> Dominion Energy Station @ 100S Main Street </div>`)[0];
+            popup_290fd136626cdfa16e3663cf99d535cf.setContent(html_a3c75bc5ddb7789d797d768f224bbd36);
+        
+
+        circle_b95569ea24e0c4dedd4c8505673bcfc4.bindPopup(popup_290fd136626cdfa16e3663cf99d535cf)
+        ;
+
+        
+    
+    
+            var circle_e951b053a8ded6869ff4579302975148 = L.circle(
+                [40.76377, -111.89659],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_4edf86b052d56201a1162145060e3ce5 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c213ac3d28306421ce4d0f53da325ca = $(`<div id="html_2c213ac3d28306421ce4d0f53da325ca" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_3425</strong> 250S 200W Station</div>`)[0];
+            popup_4edf86b052d56201a1162145060e3ce5.setContent(html_2c213ac3d28306421ce4d0f53da325ca);
+        
+
+        circle_e951b053a8ded6869ff4579302975148.bindPopup(popup_4edf86b052d56201a1162145060e3ce5)
+        ;
+
+        
+    
+    
+            var circle_43ba32ef05c791a4133b8fd20b3a6716 = L.circle(
+                [40.76485, -111.89817],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_1117c2b49d5bafb15d97fa2b35ce2a7b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_90cf0dde7b70859050c69760fcb6e56c = $(`<div id="html_90cf0dde7b70859050c69760fcb6e56c" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_3426</strong> Milagro and AC Hotel Station @ 200S 250W</div>`)[0];
+            popup_1117c2b49d5bafb15d97fa2b35ce2a7b.setContent(html_90cf0dde7b70859050c69760fcb6e56c);
+        
+
+        circle_43ba32ef05c791a4133b8fd20b3a6716.bindPopup(popup_1117c2b49d5bafb15d97fa2b35ce2a7b)
+        ;
+
+        
+    
+    
+            var circle_568d926e7e64380e94df1c4d4957c7b9 = L.circle(
+                [40.75791, -111.87152],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_7d5133e839baf4ac5d48078ac641d74c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5e86429242dd172466644be749ccf43 = $(`<div id="html_b5e86429242dd172466644be749ccf43" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_3427</strong> Salt Lake Mag Station @ 510S 700E (Trolley Square)</div>`)[0];
+            popup_7d5133e839baf4ac5d48078ac641d74c.setContent(html_b5e86429242dd172466644be749ccf43);
+        
+
+        circle_568d926e7e64380e94df1c4d4957c7b9.bindPopup(popup_7d5133e839baf4ac5d48078ac641d74c)
+        ;
+
+        
+    
+    
+            var circle_bcae5959ef45c0eeb188909a1cc37afe = L.circle(
+                [40.77187, -111.905],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_f54d8d61b4ba7e6c648848868fbcef32 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_9a6048e0d692bafe4202407a1faab80b = $(`<div id="html_9a6048e0d692bafe4202407a1faab80b" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_3428</strong> UTA FrontRunner Station @ 500W North Temple</div>`)[0];
+            popup_f54d8d61b4ba7e6c648848868fbcef32.setContent(html_9a6048e0d692bafe4202407a1faab80b);
+        
+
+        circle_bcae5959ef45c0eeb188909a1cc37afe.bindPopup(popup_f54d8d61b4ba7e6c648848868fbcef32)
+        ;
+
+        
+    
+    
+            var circle_57bed450eefea3827cfd6ee3f7ba7f19 = L.circle(
+                [40.76464, -111.91133],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_b466676705bd4182ea3c9db17d28e5f3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_54eb4b035be2925ef509ae6c84d091b9 = $(`<div id="html_54eb4b035be2925ef509ae6c84d091b9" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_3430</strong> UTA FrontLines Station @ 200S 669W</div>`)[0];
+            popup_b466676705bd4182ea3c9db17d28e5f3.setContent(html_54eb4b035be2925ef509ae6c84d091b9);
+        
+
+        circle_57bed450eefea3827cfd6ee3f7ba7f19.bindPopup(popup_b466676705bd4182ea3c9db17d28e5f3)
+        ;
+
+        
+    
+    
+            var circle_d281dbf1099da7313d7db8461f139b1d = L.circle(
+                [40.76474, -111.90558],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_b4066454d852bfaa427a9fdf8ec0955d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_12be4b889457adfa7bb5ffe8b912e218 = $(`<div id="html_12be4b889457adfa7bb5ffe8b912e218" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_3847</strong> Artspace Bridge Station @ 200S 500W</div>`)[0];
+            popup_b4066454d852bfaa427a9fdf8ec0955d.setContent(html_12be4b889457adfa7bb5ffe8b912e218);
+        
+
+        circle_d281dbf1099da7313d7db8461f139b1d.bindPopup(popup_b4066454d852bfaa427a9fdf8ec0955d)
+        ;
+
+        
+    
+    
+            var circle_8e373ffdf4d673b29e86fbc7dadc1f66 = L.circle(
+                [40.72529, -111.89756],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_0c835f99485a199425a82b4d96311f0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_264449d59cf5e7340ca3785e63a2c9d0 = $(`<div id="html_264449d59cf5e7340ca3785e63a2c9d0" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_4524</strong> UTA Central Pointe Station @ 2100S 225W</div>`)[0];
+            popup_0c835f99485a199425a82b4d96311f0f.setContent(html_264449d59cf5e7340ca3785e63a2c9d0);
+        
+
+        circle_8e373ffdf4d673b29e86fbc7dadc1f66.bindPopup(popup_0c835f99485a199425a82b4d96311f0f)
+        ;
+
+        
+    
+    
+            var circle_5ae240a7861152d11e6c4e1896e1cd23 = L.circle(
+                [40.72739, -111.88739],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_eb831b4c623d1d7189f5c9289fc8b752 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_dfa58b69abd31969fa263ae533fa7fdd = $(`<div id="html_dfa58b69abd31969fa263ae533fa7fdd" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_4525</strong> Salt Lake County Station @ 2001S State Street</div>`)[0];
+            popup_eb831b4c623d1d7189f5c9289fc8b752.setContent(html_dfa58b69abd31969fa263ae533fa7fdd);
+        
+
+        circle_5ae240a7861152d11e6c4e1896e1cd23.bindPopup(popup_eb831b4c623d1d7189f5c9289fc8b752)
+        ;
+
+        
+    
+    
+            var circle_d912cc7bf1142ad58d52bd0c134779c2 = L.circle(
+                [40.74988, -111.86563],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_4943943d5aba71981b44d79a3d8b7536 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac058f8a885416bdd25f41571ce8c099 = $(`<div id="html_ac058f8a885416bdd25f41571ce8c099" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_4526</strong> 9th & 9th Station</div>`)[0];
+            popup_4943943d5aba71981b44d79a3d8b7536.setContent(html_ac058f8a885416bdd25f41571ce8c099);
+        
+
+        circle_d912cc7bf1142ad58d52bd0c134779c2.bindPopup(popup_4943943d5aba71981b44d79a3d8b7536)
+        ;
+
+        
+    
+    
+            var circle_0f6fe424811279e6c73ed33893de323a = L.circle(
+                [40.75174, -111.90271],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_41b00dc1b49b9f9d7312c280f65daf81 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f851c86894aa7aec7f111a54a3ee6cd2 = $(`<div id="html_f851c86894aa7aec7f111a54a3ee6cd2" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_4528</strong> Artspace Commons Station @ 800S 400W</div>`)[0];
+            popup_41b00dc1b49b9f9d7312c280f65daf81.setContent(html_f851c86894aa7aec7f111a54a3ee6cd2);
+        
+
+        circle_0f6fe424811279e6c73ed33893de323a.bindPopup(popup_41b00dc1b49b9f9d7312c280f65daf81)
+        ;
+
+        
+    
+    
+            var circle_4df8d9cd92124c2aa16b975b35223bd3 = L.circle(
+                [40.75025, -111.89094],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_e22af5a1751348b875a0e064373d3251 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_3dd8fee811ebfd8f3ac35cb95b743cda = $(`<div id="html_3dd8fee811ebfd8f3ac35cb95b743cda" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_4529</strong> Proper Brewing Co Station @ 867S Main Street</div>`)[0];
+            popup_e22af5a1751348b875a0e064373d3251.setContent(html_3dd8fee811ebfd8f3ac35cb95b743cda);
+        
+
+        circle_4df8d9cd92124c2aa16b975b35223bd3.bindPopup(popup_e22af5a1751348b875a0e064373d3251)
+        ;
+
+        
+    
+    
+            var circle_4d5fc05e54dba78a22998c27ac253930 = L.circle(
+                [40.76833, -111.90529],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_6fa788abf045e519521f3b45215fd12d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_ac995d3c1f4c53d3fbd01e58b430e68a = $(`<div id="html_ac995d3c1f4c53d3fbd01e58b430e68a" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_4530</strong> 50S 500W Station</div>`)[0];
+            popup_6fa788abf045e519521f3b45215fd12d.setContent(html_ac995d3c1f4c53d3fbd01e58b430e68a);
+        
+
+        circle_4d5fc05e54dba78a22998c27ac253930.bindPopup(popup_6fa788abf045e519521f3b45215fd12d)
+        ;
+
+        
+    
+    
+            var circle_a0900fcbc785462a435fe595607bcd99 = L.circle(
+                [40.7594, -111.88244],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_22d37cdea38e9b976dda6924e2211125 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6add953a31d60bf2f70e4705dd66d750 = $(`<div id="html_6add953a31d60bf2f70e4705dd66d750" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_4590</strong> The Shop @ 450S 300E Station</div>`)[0];
+            popup_22d37cdea38e9b976dda6924e2211125.setContent(html_6add953a31d60bf2f70e4705dd66d750);
+        
+
+        circle_a0900fcbc785462a435fe595607bcd99.bindPopup(popup_22d37cdea38e9b976dda6924e2211125)
+        ;
+
+        
+    
+    
+            var circle_c62a41373d0bde9881082729e5a047fd = L.circle(
+                [40.75689, -111.90523],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_970f14571e34875bbf869419a772b8a3 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_6e07f2046196b5a167c3b0598eea6a7b = $(`<div id="html_6e07f2046196b5a167c3b0598eea6a7b" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_4591</strong> EcoBox Station @ 580S 500W </div>`)[0];
+            popup_970f14571e34875bbf869419a772b8a3.setContent(html_6e07f2046196b5a167c3b0598eea6a7b);
+        
+
+        circle_c62a41373d0bde9881082729e5a047fd.bindPopup(popup_970f14571e34875bbf869419a772b8a3)
+        ;
+
+        
+    
+    
+            var circle_2d0ba5d4c69cb4d389381fe374ad5f66 = L.circle(
+                [40.77187, -111.89126],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_c064b614859dbc2c63f8bf3dfadc7e0f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_34a79c8cb369ec790cd06f586e7621e4 = $(`<div id="html_34a79c8cb369ec790cd06f586e7621e4" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_4593</strong> The Church of Jesus Christ of Latter-Day Saints Station @ 111N Main Street</div>`)[0];
+            popup_c064b614859dbc2c63f8bf3dfadc7e0f.setContent(html_34a79c8cb369ec790cd06f586e7621e4);
+        
+
+        circle_2d0ba5d4c69cb4d389381fe374ad5f66.bindPopup(popup_c064b614859dbc2c63f8bf3dfadc7e0f)
+        ;
+
+        
+    
+    
+            var circle_0b9ff45b45149eb5373243d42cbaba23 = L.circle(
+                [40.74991, -111.87725],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_e60e197a6758c343e82e64a67846b06b = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b5fb89bbdf5988a839672837cc5f524a = $(`<div id="html_b5fb89bbdf5988a839672837cc5f524a" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_4594</strong> 900S 490E Station</div>`)[0];
+            popup_e60e197a6758c343e82e64a67846b06b.setContent(html_b5fb89bbdf5988a839672837cc5f524a);
+        
+
+        circle_0b9ff45b45149eb5373243d42cbaba23.bindPopup(popup_e60e197a6758c343e82e64a67846b06b)
+        ;
+
+        
+    
+    
+            var circle_7b845f29862b9e6b49bfec396fa7d5c1 = L.circle(
+                [40.76296, -111.87053],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_7fbee2b76bf5fc523f332e48aa93b8ff = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f689dc391d22fa1698376353bf1320fd = $(`<div id="html_f689dc391d22fa1698376353bf1320fd" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_4595</strong> 300S 710E Station</div>`)[0];
+            popup_7fbee2b76bf5fc523f332e48aa93b8ff.setContent(html_f689dc391d22fa1698376353bf1320fd);
+        
+
+        circle_7b845f29862b9e6b49bfec396fa7d5c1.bindPopup(popup_7fbee2b76bf5fc523f332e48aa93b8ff)
+        ;
+
+        
+    
+    
+            var circle_1b275f1425055278fb9527b87b89d776 = L.circle(
+                [40.76265, -111.88568],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_0eb194f493f5287565bc9b5f47e465fd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5364a6a092dc35c50a78b2016f855c8b = $(`<div id="html_5364a6a092dc35c50a78b2016f855c8b" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_4603</strong> 300S 200E Station</div>`)[0];
+            popup_0eb194f493f5287565bc9b5f47e465fd.setContent(html_5364a6a092dc35c50a78b2016f855c8b);
+        
+
+        circle_1b275f1425055278fb9527b87b89d776.bindPopup(popup_0eb194f493f5287565bc9b5f47e465fd)
+        ;
+
+        
+    
+    
+            var circle_48a348a824678cad65ef28e488082f90 = L.circle(
+                [40.76154, -111.88511],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 1.0, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 30, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+        var popup_418c05ce00721f40e6a3d9a19102e708 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_440b0aae8ea393255fa21788be41c6c8 = $(`<div id="html_440b0aae8ea393255fa21788be41c6c8" style="width: 100.0%; height: 100.0%;"><strong>bcycle_greenbikeslc_4619</strong> 349S 200E Station</div>`)[0];
+            popup_418c05ce00721f40e6a3d9a19102e708.setContent(html_440b0aae8ea393255fa21788be41c6c8);
+        
+
+        circle_48a348a824678cad65ef28e488082f90.bindPopup(popup_418c05ce00721f40e6a3d9a19102e708)
+        ;
+
+        
+    
+    
+            var poly_line_b6152480d90520ffad50be44cb5db8a6 = L.polyline(
+                [[40.72739, -111.88736], [40.72788, -111.88702], [40.7287, -111.88705], [40.72872, -111.88255], [40.73639, -111.88252], [40.73644, -111.87678], [40.74995, -111.87678], [40.74995, -111.87725]],
+                {"bubblingMouseEvents": true, "color": "#8BD3E6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_936880bf9e3418da5ad0d78ae1d026da = L.polyline(
+                [[40.74995, -111.87725], [40.74995, -111.87678], [40.7498, -111.87678], [40.74974, -111.86535], [40.74984, -111.86535], [40.74984, -111.86563]],
+                {"bubblingMouseEvents": true, "color": "#FF6D6A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_cc9214fea533b98097f66eb7119c3bc6 = L.polyline(
+                [[40.74984, -111.86563], [40.74979, -111.8682], [40.74995, -111.86812], [40.75632, -111.86811], [40.75631, -111.87143], [40.75812, -111.87143], [40.75808, -111.87158], [40.75791, -111.87158]],
+                {"bubblingMouseEvents": true, "color": "#EFBE7D", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_1b0c20b4ce8bc6fd5cee3fcd77939534 = L.polyline(
+                [[40.75791, -111.87158], [40.75808, -111.87158], [40.75812, -111.87154], [40.75812, -111.87128], [40.75849, -111.87128], [40.75849, -111.86811], [40.76283, -111.86812], [40.76283, -111.8697], [40.76299, -111.86969], [40.76299, -111.87053]],
+                {"bubblingMouseEvents": true, "color": "#B1A2CA", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_88c9ad01944aeb8957cae388517feb17 = L.polyline(
+                [[40.76299, -111.87053], [40.76298, -111.87085], [40.76284, -111.87085], [40.76284, -111.87368], [40.76289, -111.87379], [40.76292, -111.87419], [40.76292, -111.87599], [40.76289, -111.87621], [40.76292, -111.87699], [40.76307, -111.877]],
+                {"bubblingMouseEvents": true, "color": "#8BD3E6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_3cae0e3e7c65ec558d6801d2c4a1f705 = L.polyline(
+                [[40.76307, -111.877], [40.76299, -111.877], [40.76299, -111.87676], [40.76733, -111.87678], [40.76733, -111.87659], [40.76746, -111.87658]],
+                {"bubblingMouseEvents": true, "color": "#FF6D6A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_e38a9b8f66a69742288ace4d55a9bbad = L.polyline(
+                [[40.76746, -111.87658], [40.76716, -111.87659], [40.76717, -111.87966], [40.76554, -111.87964], [40.76553, -111.87985], [40.76539, -111.87985]],
+                {"bubblingMouseEvents": true, "color": "#EFBE7D", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_4cd5358efe0bace3289edb54cb93b733 = L.polyline(
+                [[40.76539, -111.87985], [40.76553, -111.87985], [40.76553, -111.88044], [40.76548, -111.88048], [40.76501, -111.88048], [40.76501, -111.88517], [40.76524, -111.88516]],
+                {"bubblingMouseEvents": true, "color": "#B1A2CA", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_8026a81b82d52ca525a58e32e4637145 = L.polyline(
+                [[40.76524, -111.88516], [40.76501, -111.88517], [40.76501, -111.88257], [40.76299, -111.88257], [40.76299, -111.88286]],
+                {"bubblingMouseEvents": true, "color": "#8BD3E6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_0910b495f2559a08709401efeb7f7073 = L.polyline(
+                [[40.76299, -111.88286], [40.76299, -111.88257], [40.75959, -111.88261], [40.75865, -111.88259], [40.75864, -111.88241], [40.7594, -111.88242]],
+                {"bubblingMouseEvents": true, "color": "#FF6D6A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_14a946642c4ba6b800fa71147d5f5bc8 = L.polyline(
+                [[40.7594, -111.88242], [40.75975, -111.88243], [40.75975, -111.88253], [40.76075, -111.88247], [40.76074, -111.88446], [40.76112, -111.88446], [40.76113, -111.88517], [40.76154, -111.88517]],
+                {"bubblingMouseEvents": true, "color": "#EFBE7D", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_05eec71b79c53a1058235aa1aed567df = L.polyline(
+                [[40.76154, -111.88517], [40.76113, -111.88517], [40.76113, -111.88537], [40.76087, -111.88537], [40.75956, -111.88537], [40.75957, -111.88517], [40.75943, -111.88517]],
+                {"bubblingMouseEvents": true, "color": "#B1A2CA", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_27c598064a2c9931d10832a4373fc8b8 = L.polyline(
+                [[40.75943, -111.88517], [40.75957, -111.88517], [40.75956, -111.88537], [40.76268, -111.88537], [40.76268, -111.88568]],
+                {"bubblingMouseEvents": true, "color": "#8BD3E6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_5a6c83cf1a55049337baae62f660a457 = L.polyline(
+                [[40.76268, -111.88568], [40.76268, -111.88556], [40.76294, -111.88556], [40.76294, -111.88758], [40.7629, -111.88773], [40.76291, -111.89106], [40.76294, -111.89198], [40.76288, -111.89198], [40.76288, -111.89248]],
+                {"bubblingMouseEvents": true, "color": "#FF6D6A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_18f6cd75d15189ccb55f5cf8216d4910 = L.polyline(
+                [[40.76288, -111.89248], [40.76288, -111.89263], [40.76294, -111.89262], [40.76292, -111.89345], [40.76293, -111.89621], [40.7634, -111.89624], [40.76343, -111.89644], [40.76342, -111.89681], [40.76396, -111.89681], [40.76397, -111.89786], [40.76485, -111.89786], [40.76485, -111.89817]],
+                {"bubblingMouseEvents": true, "color": "#EFBE7D", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_1233d8e7ca47524eb1a8611d78408a99 = L.polyline(
+                [[40.76485, -111.89817], [40.76485, -111.89786], [40.76499, -111.89786], [40.765, -111.90184], [40.76507, -111.90273], [40.76506, -111.90407], [40.76706, -111.90407], [40.76706, -111.90418], [40.76713, -111.90419]],
+                {"bubblingMouseEvents": true, "color": "#B1A2CA", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_0de3020bc695ef0c35f38fcfbb0479a1 = L.polyline(
+                [[40.76713, -111.90419], [40.76719, -111.90419], [40.76719, -111.90827], [40.76846, -111.90827], [40.76856, -111.90823], [40.76962, -111.9082], [40.76977, -111.90821], [40.76985, -111.90827], [40.77135, -111.90823], [40.77136, -111.90874]],
+                {"bubblingMouseEvents": true, "color": "#8BD3E6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_f1341e199174229aa3c21868d5e39e0d = L.polyline(
+                [[40.77136, -111.90874], [40.77136, -111.90899], [40.77143, -111.90899], [40.77143, -111.90754], [40.77148, -111.90736], [40.77145, -111.90262], [40.77029, -111.90262], [40.77029, -111.90271], [40.77026, -111.90271], [40.76975, -111.90273]],
+                {"bubblingMouseEvents": true, "color": "#FF6D6A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_2ac885fdfda015fdc648f555e4d4b4b4 = L.polyline(
+                [[40.76975, -111.90273], [40.77038, -111.9027], [40.77038, -111.90505], [40.77125, -111.90504], [40.77172, -111.90496], [40.77171, -111.90503], [40.77187, -111.90502]],
+                {"bubblingMouseEvents": true, "color": "#EFBE7D", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_8b393968213dd0f0894d10ec25fe22eb = L.polyline(
+                [[40.77187, -111.90502], [40.77171, -111.90503], [40.77172, -111.90496], [40.77125, -111.90504], [40.77078, -111.90507], [40.77044, -111.90522], [40.77023, -111.90541], [40.76991, -111.9055], [40.76852, -111.90551], [40.76852, -111.90541], [40.76833, -111.90541]],
+                {"bubblingMouseEvents": true, "color": "#B1A2CA", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_c30ee3cbfe9eaf1ce97bdbdce822cfa2 = L.polyline(
+                [[40.76833, -111.90541], [40.76852, -111.90541], [40.76852, -111.90551], [40.76484, -111.90545], [40.76484, -111.90562], [40.76474, -111.90562]],
+                {"bubblingMouseEvents": true, "color": "#8BD3E6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_bc5301bf49bc819ca596ed4976dfa046 = L.polyline(
+                [[40.76474, -111.90562], [40.76484, -111.90562], [40.76484, -111.90545], [40.76509, -111.90546], [40.76509, -111.90844], [40.765, -111.90941], [40.765, -111.91127], [40.76464, -111.91126]],
+                {"bubblingMouseEvents": true, "color": "#FF6D6A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_827ef726fcf2c9f877c9210458d2f85e = L.polyline(
+                [[40.76464, -111.91126], [40.765, -111.91127], [40.765, -111.90941], [40.76494, -111.90832], [40.763, -111.90831], [40.76266, -111.9082], [40.76269, -111.90846], [40.76264, -111.90857], [40.76258, -111.90859], [40.76257, -111.90854]],
+                {"bubblingMouseEvents": true, "color": "#EFBE7D", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_68f45cf99850e107dd5b2a925c5d61a2 = L.polyline(
+                [[40.76257, -111.90854], [40.76264, -111.90857], [40.76269, -111.90846], [40.76266, -111.9082], [40.76242, -111.90815], [40.75836, -111.90816], [40.75835, -111.90547], [40.75654, -111.90547], [40.75641, -111.90527], [40.75689, -111.90527]],
+                {"bubblingMouseEvents": true, "color": "#B1A2CA", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_0573285ca49b4f158964bc74caa5302d = L.polyline(
+                [[40.75689, -111.90527], [40.75641, -111.90527], [40.75638, -111.9046], [40.75628, -111.90424], [40.75628, -111.90329], [40.75661, -111.90329], [40.75661, -111.90289], [40.75669, -111.90289], [40.75669, -111.90265], [40.75629, -111.90265], [40.75591, -111.90259], [40.75228, -111.9026], [40.75179, -111.90261], [40.75179, -111.90274], [40.75174, -111.90274]],
+                {"bubblingMouseEvents": true, "color": "#8BD3E6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_8b3dc766f0b2c3b8bee0c5b8f983e1da = L.polyline(
+                [[40.75174, -111.90274], [40.75194, -111.90274], [40.75194, -111.90245], [40.75798, -111.90247], [40.758, -111.90182], [40.75817, -111.90183], [40.75817, -111.90161], [40.7583, -111.90161], [40.75832, -111.89618], [40.75863, -111.8962], [40.75863, -111.89593]],
+                {"bubblingMouseEvents": true, "color": "#FF6D6A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_705eb49bad722e0a6164e75bf963986b = L.polyline(
+                [[40.75863, -111.89593], [40.75863, -111.89574], [40.75878, -111.89574], [40.75878, -111.89643], [40.75998, -111.89642], [40.75999, -111.8968], [40.76269, -111.8968], [40.76271, -111.89539], [40.76268, -111.89539], [40.76268, -111.89544]],
+                {"bubblingMouseEvents": true, "color": "#EFBE7D", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_7d7861bfcb1aeb39e9c6e27cf8b26e2a = L.polyline(
+                [[40.76268, -111.89544], [40.76268, -111.89526], [40.76289, -111.89526], [40.76288, -111.89991], [40.76284, -111.89991], [40.76284, -111.90006]],
+                {"bubblingMouseEvents": true, "color": "#B1A2CA", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_5b6caeb9b62ff436ee640db97ffa5396 = L.polyline(
+                [[40.76284, -111.90006], [40.76284, -111.89991], [40.76271, -111.89991], [40.76269, -111.89671], [40.76271, -111.89665], [40.76392, -111.89668], [40.76392, -111.89661], [40.76377, -111.89662]],
+                {"bubblingMouseEvents": true, "color": "#8BD3E6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_8a7feac6dd6978919d8de06c6e43dca0 = L.polyline(
+                [[40.76377, -111.89662], [40.7645, -111.89673], [40.76919, -111.89673], [40.76919, -111.89702], [40.76906, -111.89701]],
+                {"bubblingMouseEvents": true, "color": "#FF6D6A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_3802f54d2c41051955c1a58ea305746e = L.polyline(
+                [[40.76906, -111.89701], [40.76925, -111.89702], [40.76925, -111.89673], [40.77168, -111.89674], [40.77168, -111.89662], [40.77181, -111.89662]],
+                {"bubblingMouseEvents": true, "color": "#EFBE7D", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_aac521362131fd114fe79a99eaa48839 = L.polyline(
+                [[40.77181, -111.89662], [40.77146, -111.89662], [40.77148, -111.8913], [40.77163, -111.8913], [40.77165, -111.89121], [40.77187, -111.89121]],
+                {"bubblingMouseEvents": true, "color": "#B1A2CA", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_8510d146bf557f8656d93cd17e59ddd0 = L.polyline(
+                [[40.77187, -111.89121], [40.77165, -111.89121], [40.77163, -111.8913], [40.76919, -111.89132], [40.76916, -111.89129], [40.76903, -111.89129]],
+                {"bubblingMouseEvents": true, "color": "#8BD3E6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_d867fd7de8e0dab472eb8f5647868556 = L.polyline(
+                [[40.76903, -111.89129], [40.76916, -111.89129], [40.76919, -111.89132], [40.76941, -111.89131], [40.76942, -111.89398], [40.76862, -111.894], [40.7685, -111.89405], [40.76831, -111.89406], [40.76831, -111.89416], [40.76811, -111.89417], [40.76812, -111.89419]],
+                {"bubblingMouseEvents": true, "color": "#FF6D6A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_9856678c7b2a7bda13b748a0da2a4fa3 = L.polyline(
+                [[40.76812, -111.89419], [40.7674, -111.89415], [40.76734, -111.89411], [40.76734, -111.89394], [40.7671, -111.89394], [40.76711, -111.89102], [40.76734, -111.89101], [40.76734, -111.89085]],
+                {"bubblingMouseEvents": true, "color": "#EFBE7D", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_b90206a3cabfc4a5e876599e4dc083ca = L.polyline(
+                [[40.76734, -111.89085], [40.76734, -111.89091], [40.76711, -111.89091], [40.76711, -111.88804], [40.76701, -111.88804], [40.76701, -111.88774]],
+                {"bubblingMouseEvents": true, "color": "#B1A2CA", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_5db0885043dcfd79eeda7c9edcecc405 = L.polyline(
+                [[40.76701, -111.88774], [40.76701, -111.88804], [40.76724, -111.88804], [40.76724, -111.88865], [40.76718, -111.889], [40.76718, -111.89067], [40.7672, -111.89078], [40.76725, -111.89089], [40.76722, -111.8912], [40.76602, -111.89119], [40.76602, -111.89127], [40.76624, -111.89127]],
+                {"bubblingMouseEvents": true, "color": "#8BD3E6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_1630adc07abe5317abdf6d0f969a44af = L.polyline(
+                [[40.76624, -111.89127], [40.76602, -111.89127], [40.76602, -111.89119], [40.76485, -111.89118], [40.76485, -111.89094], [40.7643, -111.89092]],
+                {"bubblingMouseEvents": true, "color": "#FF6D6A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_44b2c714f3139f02d25dd2599a31ebc4 = L.polyline(
+                [[40.7643, -111.89092], [40.76399, -111.89093], [40.764, -111.89118], [40.76182, -111.89119], [40.76183, -111.89092], [40.76142, -111.89092]],
+                {"bubblingMouseEvents": true, "color": "#EFBE7D", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_45dbc533ba0e72015572d19e2294dac1 = L.polyline(
+                [[40.76142, -111.89092], [40.76083, -111.89091], [40.76082, -111.89119], [40.75555, -111.8912], [40.75032, -111.89107], [40.75035, -111.89088], [40.75025, -111.89088]],
+                {"bubblingMouseEvents": true, "color": "#B1A2CA", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_00b9461723f4188c91498d49f9e01e8a = L.polyline(
+                [[40.75025, -111.89088], [40.72792, -111.89108], [40.72791, -111.89396], [40.72614, -111.89397], [40.72604, -111.89513], [40.72544, -111.89514], [40.72532, -111.89756]],
+                {"bubblingMouseEvents": true, "color": "#8BD3E6", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+    
+            var poly_line_af4f6a874f3c04b747cc3ae0cedd7120 = L.polyline(
+                [[40.72532, -111.89756], [40.72534, -111.89668], [40.72539, -111.89668], [40.72539, -111.89629], [40.72543, -111.89615], [40.72546, -111.88804], [40.72684, -111.88803], [40.72697, -111.88787], [40.7272, -111.88788], [40.72723, -111.88776], [40.72735, -111.88768], [40.72734, -111.88737], [40.72739, -111.88736]],
+                {"bubblingMouseEvents": true, "color": "#FF6D6A", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 3}
+            ).addTo(map_7ae1079bc68dc72065b960681654ffc5);
+        
+</script>
