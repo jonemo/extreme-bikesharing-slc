@@ -1,693 +1,591 @@
-[
-    {
-        "id": 2248,
+{
+  "ttl": 60,
+  "data": {
+    "stations": [
+      {
+        "lon": -111.88774,
+        "lat": 40.76704,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2248&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2248&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "123 E 100 S",
         "name": "Harmons Station @ 123E 100S",
-        "addressStreet": "123 E 100 S",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.76704,
-        "longitude": -111.88774,
-        "totalDocks": 23,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2251,
+        "station_id": "bcycle_greenbikeslc_2248"
+      },
+      {
+        "lon": -111.89126,
+        "lat": 40.76903,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2251&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2251&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "6 S. Main St.",
         "name": "Key Bank Station @ 6S Main Street",
-        "addressStreet": "6 S. Main St.",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.76903,
-        "longitude": -111.89126,
-        "totalDocks": 28,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2252,
+        "station_id": "bcycle_greenbikeslc_2251"
+      },
+      {
+        "lon": -111.89544,
+        "lat": 40.76266,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2252&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2252&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "147W Broadway",
         "name": "Squatters Station @ 147W Broadway",
-        "addressStreet": "147W Broadway",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.76266,
-        "longitude": -111.89544,
-        "totalDocks": 19,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2254,
+        "station_id": "bcycle_greenbikeslc_2252"
+      },
+      {
+        "lon": -111.89419,
+        "lat": 40.76812,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2254&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2254&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "20 S West Temple",
         "name": "20S West Temple Station",
-        "addressStreet": "20 S West Temple",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.76812,
-        "longitude": -111.89419,
-        "totalDocks": 17,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2255,
+        "station_id": "bcycle_greenbikeslc_2254"
+      },
+      {
+        "lon": -111.89091,
+        "lat": 40.76142,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2255&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2255&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "353S Main Street",
         "name": "City Weekly Station @ 353S Main Street",
-        "addressStreet": "353S Main Street",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.76142,
-        "longitude": -111.89091,
-        "totalDocks": 27,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2256,
+        "station_id": "bcycle_greenbikeslc_2255"
+      },
+      {
+        "lon": -111.90274,
+        "lat": 40.76975,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2256&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2256&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "400 W South Temple",
         "name": "400W South Temple Station",
-        "addressStreet": "400 W South Temple",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.76975,
-        "longitude": -111.90274,
-        "totalDocks": 19,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2257,
+        "station_id": "bcycle_greenbikeslc_2256"
+      },
+      {
+        "lon": -111.89095,
+        "lat": 40.7643,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2257&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2257&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "225 S. Main St.",
         "name": "Rocky Mountain Power Station @ 225S Main Street",
-        "addressStreet": "225 S. Main St.",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.76430,
-        "longitude": -111.89095,
-        "totalDocks": 41,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2258,
+        "station_id": "bcycle_greenbikeslc_2257"
+      },
+      {
+        "lon": -111.89667,
+        "lat": 40.77181,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2258&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2258&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "200 West North Temple",
         "name": "The Church of Jesus Christ of Latter-Day Saints Station @ 200W North Temple",
-        "addressStreet": "200 West North Temple",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84103",
-        "latitude": 40.77181,
-        "longitude": -111.89667,
-        "totalDocks": 23,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2259,
+        "station_id": "bcycle_greenbikeslc_2258"
+      },
+      {
+        "lon": -111.9085,
+        "lat": 40.76257,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2259&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2259&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "290S 600W",
         "name": "UTA Salt Lake Central Station @ 290S 600W",
-        "addressStreet": "290S 600W",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.76257,
-        "longitude": -111.90850,
-        "totalDocks": 40,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2400,
+        "station_id": "bcycle_greenbikeslc_2259"
+      },
+      {
+        "lon": -111.89707,
+        "lat": 40.76906,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2400&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2400&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "215 West South Temple",
         "name": "Radisson Station @ 215W South Temple",
-        "addressStreet": "215 West South Temple",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.76906,
-        "longitude": -111.89707,
-        "totalDocks": 17,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2735,
+        "station_id": "bcycle_greenbikeslc_2400"
+      },
+      {
+        "lon": -111.88521,
+        "lat": 40.75943,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2735&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2735&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "450 South 200 East",
         "name": "UCAIR Station @ 450S 200E",
-        "addressStreet": "450 South 200 East",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.75943,
-        "longitude": -111.88521,
-        "totalDocks": 22,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2736,
+        "station_id": "bcycle_greenbikeslc_2735"
+      },
+      {
+        "lon": -111.90874,
+        "lat": 40.77132,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2736&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2736&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "640 West North Temple",
         "name": "640W  North Temple Station",
-        "addressStreet": "640 West North Temple",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84116",
-        "latitude": 40.77132,
-        "longitude": -111.90874,
-        "totalDocks": 20,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2737,
+        "station_id": "bcycle_greenbikeslc_2736"
+      },
+      {
+        "lon": -111.89124,
+        "lat": 40.76624,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2737&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2737&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "136S Main Street ",
         "name": "Energy Development Station @ 136S Main Street",
-        "addressStreet": "136S Main Street ",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.76624,
-        "longitude": -111.89124,
-        "totalDocks": 19,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2738,
+        "station_id": "bcycle_greenbikeslc_2737"
+      },
+      {
+        "lon": -111.89593,
+        "lat": 40.75861,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2738&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2738&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "500S 150W",
         "name": "Sheraton Station @ 500S 150W",
-        "addressStreet": "500S 150W",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.75861,
-        "longitude": -111.89593,
-        "totalDocks": 21,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2739,
+        "station_id": "bcycle_greenbikeslc_2738"
+      },
+      {
+        "lon": -111.87982,
+        "lat": 40.76539,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2739&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2739&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "190 South 400 East",
         "name": "CityScape Station @ 190S 400E",
-        "addressStreet": "190 South 400 East",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.76539,
-        "longitude": -111.87982,
-        "totalDocks": 19,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2740,
+        "station_id": "bcycle_greenbikeslc_2739"
+      },
+      {
+        "lon": -111.88286,
+        "lat": 40.76297,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2740&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2740&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "300 South 300 East",
         "name": "3 & 3 Uncommons Station ",
-        "addressStreet": "300 South 300 East",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.76297,
-        "longitude": -111.88286,
-        "totalDocks": 19,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 2742,
+        "station_id": "bcycle_greenbikeslc_2740"
+      },
+      {
+        "lon": -111.89248,
+        "lat": 40.76283,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2742&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_2742&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "50 W 300 S",
         "name": "Twilight Concert Series Station @ 50W Broadway ",
-        "addressStreet": "50 W 300 S",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.76283,
-        "longitude": -111.89248,
-        "totalDocks": 18,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 3181,
+        "station_id": "bcycle_greenbikeslc_2742"
+      },
+      {
+        "lon": -111.90006,
+        "lat": 40.76285,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3181&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3181&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "300S 300W",
         "name": "UCAIR Station @ Pioneer Park",
-        "addressStreet": "300S 300W",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.76285,
-        "longitude": -111.90006,
-        "totalDocks": 22,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 3182,
+        "station_id": "bcycle_greenbikeslc_3181"
+      },
+      {
+        "lon": -111.88515,
+        "lat": 40.76524,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3182&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3182&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "200S 200E ",
         "name": "SLUG Mag Station @ 200S 200E",
-        "addressStreet": "200S 200E ",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.76524,
-        "longitude": -111.88515,
-        "totalDocks": 20,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 3183,
+        "station_id": "bcycle_greenbikeslc_3182"
+      },
+      {
+        "lon": -111.90424,
+        "lat": 40.76713,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3183&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3183&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "100S 469W",
         "name": "The Gateway Station @ 100S Rio Grande ",
-        "addressStreet": "100S 469W",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.76713,
-        "longitude": -111.90424,
-        "totalDocks": 26,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 3184,
+        "station_id": "bcycle_greenbikeslc_3183"
+      },
+      {
+        "lon": -111.87664,
+        "lat": 40.76746,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3184&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3184&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": " 100S 500E ",
         "name": " 100S 500E Station",
-        "addressStreet": " 100S 500E ",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84102",
-        "latitude": 40.76746,
-        "longitude": -111.87664,
-        "totalDocks": 21,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 3185,
+        "station_id": "bcycle_greenbikeslc_3184"
+      },
+      {
+        "lon": -111.87697,
+        "lat": 40.76307,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3185&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3185&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "300S 500E",
         "name": "JF Capital Station @ 300S 500E",
-        "addressStreet": "300S 500E",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84102",
-        "latitude": 40.76307,
-        "longitude": -111.87697,
-        "totalDocks": 21,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 3423,
+        "station_id": "bcycle_greenbikeslc_3185"
+      },
+      {
+        "lon": -111.89085,
+        "lat": 40.76732,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3423&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3423&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "100S Main St ",
         "name": "Dominion Energy Station @ 100S Main Street ",
-        "addressStreet": "100S Main St ",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.76732,
-        "longitude": -111.89085,
-        "totalDocks": 24,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 3425,
+        "station_id": "bcycle_greenbikeslc_3423"
+      },
+      {
+        "lon": -111.89659,
+        "lat": 40.76377,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3425&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3425&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "250S 200W ",
         "name": "250S 200W Station",
-        "addressStreet": "250S 200W ",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.76377,
-        "longitude": -111.89659,
-        "totalDocks": 21,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 3426,
+        "station_id": "bcycle_greenbikeslc_3425"
+      },
+      {
+        "lon": -111.89817,
+        "lat": 40.76485,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3426&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3426&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "200S 250W",
         "name": "Milagro and AC Hotel Station @ 200S 250W",
-        "addressStreet": "200S 250W",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.76485,
-        "longitude": -111.89817,
-        "totalDocks": 22,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 3427,
+        "station_id": "bcycle_greenbikeslc_3426"
+      },
+      {
+        "lon": -111.87152,
+        "lat": 40.75791,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3427&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3427&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "510S 700E",
         "name": "Salt Lake Mag Station @ 510S 700E (Trolley Square)",
-        "addressStreet": "510S 700E",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.75791,
-        "longitude": -111.87152,
-        "totalDocks": 20,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 3428,
+        "station_id": "bcycle_greenbikeslc_3427"
+      },
+      {
+        "lon": -111.905,
+        "lat": 40.77187,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3428&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3428&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "500W N. Temple",
         "name": "UTA FrontRunner Station @ 500W North Temple",
-        "addressStreet": "500W N. Temple",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.77187,
-        "longitude": -111.90500,
-        "totalDocks": 22,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 3430,
+        "station_id": "bcycle_greenbikeslc_3428"
+      },
+      {
+        "lon": -111.91133,
+        "lat": 40.76464,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3430&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3430&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "200S 669W",
         "name": "UTA FrontLines Station @ 200S 669W",
-        "addressStreet": "200S 669W",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.76464,
-        "longitude": -111.91133,
-        "totalDocks": 21,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 3847,
+        "station_id": "bcycle_greenbikeslc_3430"
+      },
+      {
+        "lon": -111.90558,
+        "lat": 40.76474,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3847&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_3847&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "200 South 500 West",
         "name": "Artspace Bridge Station @ 200S 500W",
-        "addressStreet": "200 South 500 West",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.76474,
-        "longitude": -111.90558,
-        "totalDocks": 21,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 4524,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_3847"
+      },
+      {
+        "lon": -111.89756,
+        "lat": 40.72529,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4524&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4524&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "2100 South 225 West",
         "name": "UTA Central Pointe Station @ 2100S 225W",
-        "addressStreet": "2100 South 225 West",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84115",
-        "latitude": 40.72529,
-        "longitude": -111.89756,
-        "totalDocks": 32,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 4525,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_4524"
+      },
+      {
+        "lon": -111.88739,
+        "lat": 40.72739,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4525&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4525&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "2001 South State Street",
         "name": "Salt Lake County Station @ 2001S State Street",
-        "addressStreet": "2001 South State Street",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84115",
-        "latitude": 40.72739,
-        "longitude": -111.88739,
-        "totalDocks": 22,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 4526,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_4525"
+      },
+      {
+        "lon": -111.86563,
+        "lat": 40.74988,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4526&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4526&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "900 South 900 East",
         "name": "9th & 9th Station",
-        "addressStreet": "900 South 900 East",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84105",
-        "latitude": 40.74988,
-        "longitude": -111.86563,
-        "totalDocks": 16,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 4528,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_4526"
+      },
+      {
+        "lon": -111.90271,
+        "lat": 40.75174,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4528&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4528&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "800 South 400 West",
         "name": "Artspace Commons Station @ 800S 400W",
-        "addressStreet": "800 South 400 West",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.75174,
-        "longitude": -111.90271,
-        "totalDocks": 39,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 4529,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_4528"
+      },
+      {
+        "lon": -111.89094,
+        "lat": 40.75025,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4529&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4529&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "867 South Main Street",
         "name": "Proper Brewing Co Station @ 867S Main Street",
-        "addressStreet": "867 South Main Street",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.75025,
-        "longitude": -111.89094,
-        "totalDocks": 28,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 4530,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_4529"
+      },
+      {
+        "lon": -111.90529,
+        "lat": 40.76833,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4530&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4530&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "50 South 500 West",
         "name": "50S 500W Station",
-        "addressStreet": "50 South 500 West",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.76833,
-        "longitude": -111.90529,
-        "totalDocks": 32,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 4590,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_4530"
+      },
+      {
+        "lon": -111.88244,
+        "lat": 40.7594,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4590&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4590&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "450 South 300 East",
         "name": "The Shop @ 450S 300E Station",
-        "addressStreet": "450 South 300 East",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.75940,
-        "longitude": -111.88244,
-        "totalDocks": 22,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 4591,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_4590"
+      },
+      {
+        "lon": -111.90523,
+        "lat": 40.75689,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4591&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4591&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "580 South 500 West",
         "name": "EcoBox Station @ 580S 500W ",
-        "addressStreet": "580 South 500 West",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84101",
-        "latitude": 40.75689,
-        "longitude": -111.90523,
-        "totalDocks": 26,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 4593,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_4591"
+      },
+      {
+        "lon": -111.89126,
+        "lat": 40.77187,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4593&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4593&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "111 North Main Street",
         "name": "The Church of Jesus Christ of Latter-Day Saints Station @ 111N Main Street",
-        "addressStreet": "111 North Main Street",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84150",
-        "latitude": 40.77187,
-        "longitude": -111.89126,
-        "totalDocks": 28,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 4594,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_4593"
+      },
+      {
+        "lon": -111.87725,
+        "lat": 40.74991,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4594&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4594&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "900 South 490 East",
         "name": "900S 490E Station",
-        "addressStreet": "900 South 490 East",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.74991,
-        "longitude": -111.87725,
-        "totalDocks": 28,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 4595,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_4594"
+      },
+      {
+        "lon": -111.87053,
+        "lat": 40.76296,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4595&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4595&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "300 S 710 East",
         "name": "300S 710E Station",
-        "addressStreet": "300 S 710 East",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84102",
-        "latitude": 40.76296,
-        "longitude": -111.87053,
-        "totalDocks": 24,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 4603,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_4595"
+      },
+      {
+        "lon": -111.88568,
+        "lat": 40.76265,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4603&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4603&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "300 south 200 east",
         "name": "300S 200E Station",
-        "addressStreet": "300 south 200 east",
-        "addressCity": "salt lake city ",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.76265,
-        "longitude": -111.88568,
-        "totalDocks": 35,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 4619,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_4603"
+      },
+      {
+        "lon": -111.88511,
+        "lat": 40.76154,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4619&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_4619&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "address": "349S 200E",
         "name": "349S 200E Station",
-        "addressStreet": "349S 200E",
-        "addressCity": "Salt Lake City",
-        "addressState": "UT",
-        "addressZipCode": "84111",
-        "latitude": 40.76154,
-        "longitude": -111.88511,
-        "totalDocks": 13,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": null,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 7277,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_4619"
+      },
+      {
+        "lon": -111.97083,
+        "lat": 41.21869,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_7277&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_7277&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "region_id": "bcycle_greenbikeslc_region_37",
+        "address": "26th St and Washington Blvd",
         "name": "26th St and Washington Blvd",
-        "addressStreet": "26th St and Washington Blvd",
-        "addressCity": "Ogden",
-        "addressState": "UT",
-        "addressZipCode": "84401",
-        "latitude": 41.21869,
-        "longitude": -111.97083,
-        "totalDocks": 12,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": 37,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 7278,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_7277"
+      },
+      {
+        "lon": -111.97073,
+        "lat": 41.22477,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_7278&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_7278&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "region_id": "bcycle_greenbikeslc_region_37",
+        "address": "23rd St and Washington Blvd",
         "name": "23rd St and Washington Blvd",
-        "addressStreet": "23rd St and Washington Blvd",
-        "addressCity": "Ogden",
-        "addressState": "UT",
-        "addressZipCode": "84401",
-        "latitude": 41.22477,
-        "longitude": -111.97073,
-        "totalDocks": 13,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": 37,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 7279,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_7278"
+      },
+      {
+        "lon": -111.9763,
+        "lat": 41.22044,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_7279&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_7279&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "region_id": "bcycle_greenbikeslc_region_37",
+        "address": "25th St and Lincoln Ave",
         "name": "25th St and Lincoln Ave",
-        "addressStreet": "25th St and Lincoln Ave",
-        "addressCity": "Ogden",
-        "addressState": "UT",
-        "addressZipCode": "84401",
-        "latitude": 41.22044,
-        "longitude": -111.97630,
-        "totalDocks": 17,
-        "timeZoneId": "Dateline Standard Time",
-        "regionId": 37,
-        "ianaTimeZone": "Etc/GMT+12"
-    },
-    {
-        "id": 7280,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_7279"
+      },
+      {
+        "lon": -111.98023,
+        "lat": 41.22412,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_7280&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_7280&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "region_id": "bcycle_greenbikeslc_region_37",
+        "address": "2350 Wall Ave",
         "name": "Frontrunner Station @ 2350 Wall Ave",
-        "addressStreet": "2350 Wall Ave",
-        "addressCity": "Ogden",
-        "addressState": "UT",
-        "addressZipCode": "84401",
-        "latitude": 41.22412,
-        "longitude": -111.98023,
-        "totalDocks": 22,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": 37,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 7283,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_7280"
+      },
+      {
+        "lon": -111.97321,
+        "lat": 41.22924,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_7283&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_7283&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "region_id": "bcycle_greenbikeslc_region_37",
+        "address": "21st and Grant Ave",
         "name": "21st St and Grant Ave",
-        "addressStreet": "21st and Grant Ave",
-        "addressCity": "Ogden",
-        "addressState": "UT",
-        "addressZipCode": "84401",
-        "latitude": 41.22924,
-        "longitude": -111.97321,
-        "totalDocks": 12,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": 37,
-        "ianaTimeZone": "America/Denver"
-    },
-    {
-        "id": 7284,
-        "publicText": null,
+        "station_id": "bcycle_greenbikeslc_7283"
+      },
+      {
+        "lon": -111.97293,
+        "lat": 41.23282,
+        "rental_uris": {
+          "ios": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_7284&platform=iOS",
+          "android": "https://www.bcycle.com/applink?system_id=bcycle_greenbikeslc&station_id=bcycle_greenbikeslc_7284&platform=android"
+        },
+        "_bcycle_station_type": "Kiosk and Station",
+        "region_id": "bcycle_greenbikeslc_region_37",
+        "address": "1911 S 315 E",
         "name": "Brewery @ Grant Ave and Park Blvd",
-        "addressStreet": "1911 S 315 E",
-        "addressCity": "Ogden",
-        "addressState": "UT",
-        "addressZipCode": "84401",
-        "latitude": 41.23282,
-        "longitude": -111.97293,
-        "totalDocks": 16,
-        "timeZoneId": "Mountain Standard Time",
-        "regionId": 37,
-        "ianaTimeZone": "America/Denver"
-    }
-]
+        "station_id": "bcycle_greenbikeslc_7284"
+      }
+    ]
+  },
+  "version": "1.1",
+  "last_updated": 1664732625
+}
