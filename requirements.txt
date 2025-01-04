@@ -1,5 +1,7 @@
-notebook==6.4.12
-folium==0.12.1.post1
-ortools==9.4.1827
+notebook==6.5.2
+gbfs-client==0.1.8
+PyBikes@git+https://github.com/eskerda/pybikes.git
+folium==0.13.0
+ortools==9.4.1874
 mapbox==0.18.1
 geopy==2.2.0
